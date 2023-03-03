@@ -72,10 +72,43 @@ function start () {
                 return "Please enter at least one character.";
               }
             },
-            /* {ask for id},
-              {ask for email},
-              {ask for office number}
-             */
+            // /* {ask for id},
+            {
+                type: "input",
+                name: "managerName",
+                message: "What is the team manager's name?",
+                validate: answer => {
+                  if (answer !== "") {
+                    return true;
+                  }
+                  return "Please enter at least one character.";
+                }
+              },
+            //   {ask for email},
+            {
+                type: "input",
+                name: "managerName",
+                message: "What is the team manager's name?",
+                validate: answer => {
+                  if (answer !== "") {
+                    return true;
+                  }
+                  return "Please enter at least one character.";
+                }
+              },
+            //   {ask for office number}
+            {
+                type: "input",
+                name: "managerName",
+                message: "What is the team manager's name?",
+                validate: answer => {
+                  if (answer !== "") {
+                    return true;
+                  }
+                  return "Please enter at least one character.";
+                }
+              },
+            //  */
           ]).then(answers => {
             const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
             // push to team array
