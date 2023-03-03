@@ -16,7 +16,7 @@ const render = require("./src/page-template.js");
 // Start: Need to create node project, install inquirer and Jest.
 
 //     1. Make a new folder for the project and initialize it as an npm project. 
-//     - git init -y
+//     - npm init -y
 
 //     2. Install the older version of inquirer so that it doesnt break the setup using require().
 //     Link to doc: https://www.npmjs.com/package/inquirer
