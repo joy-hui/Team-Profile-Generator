@@ -65,12 +65,12 @@
       * Contributing,
       * Tests,
       * Questions
-    * When a user enters the project title then it is displayed as the title of the README
-    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-    * When a user clicks on the links in the Table of Contents then they are taken to the corresponding section of the README
+  * When a user enters the project title then it is displayed as the title of the README
+  * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+  * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+  * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
+  * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
+  * When a user clicks on the links in the Table of Contents then they are taken to the corresponding section of the README
  
 ## Table of Contents 
 
@@ -86,7 +86,10 @@
 
 ## Installation
 * You can create one by running npm init when you first set up the project, before installing any dependencies.
-* The command should be run to install dependencies: npm i
+* The command should be run to install dependencies: 
+  * npm init -y
+  * npm install --save inquirer@^8.0.0 
+  * npm i jest
 
 ## Usage
 * The application will be invoked by using the following command: node index.js
@@ -100,7 +103,7 @@ MIT
   
 ## Contributing
 
-help you README-Generator
+help you to collect information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. 
 
 
 ## Questions
