@@ -93,8 +93,9 @@
 
 ## Usage
 * The application will be invoked by using the following command: node index.js
-![image of screenshot2](1.png)
-![image of screenshot1](2.png)
+![image of screenshot2](./assets/1.png)
+![image of screenshot1](./assets/2.png)
+![image of screenshot1](./assets/3.png)
 
 
 ## License
